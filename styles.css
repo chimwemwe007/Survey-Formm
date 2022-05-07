@@ -1,0 +1,21 @@
+#container{
+    height: 900px;
+    width: 750px;
+    border: 5px solid blue;
+    align-content: center;
+    margin-left:80px;
+    margin-right:80px;
+    align-items: center;
+    background-color: fuchsia;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+body{
+    background-color: black;
+    align-content: center;
+}
+form{
+    margin-left: 20px;
+}

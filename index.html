@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Microverse Candidates Survey Form</title>
+</head>
+<body>
+  <div id="container">
+    <h1 id="title">
+Microverse Candidates Survey
+    </h1>
+    <p id="discription">
+        This survey is meant to find out the feeling Microverse candidates have after completing the application process.
+    </p>
+    <form id="survey-form" target="#">
+        <p>Please enter your Fullname, valid Email and Number below</p>
+        <label id="name-label"> NAME:
+        <input id="name" type="text" placeholder="John Smith" required>
+        </label>
+        <label id="email-label"> EMAIL:
+        <input id="email" type="email" placeholder="johnsmith@gmail.com" required>
+        </label>
+        <label id="number-label"> NUMBER:
+        <input id="number" type="number" placeholder="12345" max="5" min="1">
+</label><br><br>
+<p>Select how you feel after completing the application process</p>
+<select id="dropdown" name="feeling">
+    <option value="overwelmed">
+        Overwelmed
+    </option>
+    <option value="fraustrated">
+        Fraustrated
+    </option>
+</select><br><br>
+<p>If you selected Overwelmed above, which might be the reason</p>
+<label id="why-overwelmed">
+    <input type="radio" name="easy-challenging" value="easy"> Easy
+    <input type="radio" name="easy-challenging" value="challenging"> Challenging
+</label><br><br>
+<p>Select the parts you felt Easy/Challenging according to your answer above</p>
+<label id="stages">
+    <input type="checkbox" name="stages" value="registration"> Registration
+<input type="checkbox" name="stages" value="coding-challenges"> Coding Challenges
+    <input type="checkbox" name="stages" value="trials"> Trials
+</label><br><br>
+<p>Is there anything else you would want to tell us? Please write it in the comment box below.</p>
+<textarea id="add-comment">
+    write your comment here</textarea> <br><br>
+<button id="submit" type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
